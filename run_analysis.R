@@ -59,6 +59,6 @@ names(tidyDataAVGSet)[1] <- "Subject"
 names(tidyDataAVGSet)[2] <- "Activity"
 
 #Writing the tidy data to a new file
-write.table(tidyDataSet, "./tidydataset.txt")
+write.table(tidyDataSet, "./tidydataset.txt",row.names = FALSE)
 write.table(tidyDataAVGSet, "./tidydataset-AVERAGE.txt")
 
